@@ -20,5 +20,5 @@ summary(fit)$importance[3,3]
 fit$x[,1:2]
 
 plot(fit,type="lines")
-cbind(fit$x[,1:2], iris[,5])
+new_data = cbind(fit$x[,1:2], iris[,5])
 biplot(fit)
